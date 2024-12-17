@@ -1,12 +1,14 @@
 const fs = require("node:fs");
 
-const APP_HOST = "localhost";
+// const APP_HOST = "localhost";
+const APP_HOST = "39.102.209.112";
 const APP_PORT = 9000;
 
-const DATABASE_HOST = "localhost";
+// const DATABASE_HOST = "localhost";
+const DATABASE_HOST = "39.102.209.112";
 const DATABASE_PORT = 3306;
 const DATABASE_USER = "root";
-const DATABASE_PASSWORD = "qwer1234";
+const DATABASE_PASSWORD = "Qwer1234.";
 const DATABASE_NAME = "share-football";
 
 const PRIVATE_KEY = fs.readFileSync("./keys/private.pem");
